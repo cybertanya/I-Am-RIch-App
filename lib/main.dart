@@ -1,7 +1,14 @@
 import 'package:flutter/material.dart';
 
-void main(){
+void main() {
   runApp(
-    MaterialApp(home: Center(child: Text('Hello Cyber'),),),
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("I Am RIch"),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+      ),
+    ),
   );
 }
